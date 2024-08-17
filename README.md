@@ -1,6 +1,6 @@
-# Yurie/Template
+# Yurie/Cartesian
 
-Paclet template.
+Cartesian coordinates.
 
 ## Install
 
@@ -16,30 +16,30 @@ Install from this repository:
 
 Install manually:
 
-1. download this repository;
+1. download this repository, and move it to the paclet directory `$UserBasePacletsDirectory`;
 
-2. move it to the paclet directory:
+2. rebuild the internal paclet data:
 
     ``` wl
-    $UserBasePacletsDirectory
+    PacletDataRebuild[]
     ```
 
 ## Load
 
 ``` wl
-Needs["Yurie`Template`"]
+Needs["Yurie`Cartesian`"]
 ```
 
 ## Upgrade
 
 ``` wl
-PacletInstall["Yurie/Template"]
+PacletInstall["Yurie/Cartesian"]
 ```
 
 ## Uninstall
 
 ``` wl
-PacletUninstall["Yurie/Template"]
+PacletUninstall["Yurie/Cartesian"]
 ```
 
 ## Documentation

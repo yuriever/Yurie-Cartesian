@@ -1,6 +1,4 @@
-
-
-(*Coordinate.wl*)
+(* Coordinate.wl *)
 
 coord::usage =
 	"spacetime coordinates.";
@@ -54,7 +52,7 @@ sub2::usage =
 	"x_a.";
 
 
-(*Function.wl*)
+(* Function.wl *)
 
 coordQ::usage =
 	"test whether is a spacetime coordinate.";
@@ -78,7 +76,7 @@ coordSum::usage =
 	"Sum according to coordinates.";
 
 
-(*Initiation.wl*)
+(* Initiation.wl *)
 
 initiateCartesian::usage =
 	StringJoin["the first argument specifies the coordinates, and the last argument specifies the metric.\n", "PseudoInverse is used if the metric matrix is non-invertible."];

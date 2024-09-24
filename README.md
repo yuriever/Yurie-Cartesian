@@ -2,6 +2,8 @@
 
 Cartesian coordinates.
 
+## Documentation
+
 ## Install
 
 Install from this repository:
@@ -41,5 +43,3 @@ PacletInstall["Yurie/Cartesian"]
 ``` wl
 PacletUninstall["Yurie/Cartesian"]
 ```
-
-## Documentation
